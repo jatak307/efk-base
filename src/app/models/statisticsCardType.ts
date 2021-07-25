@@ -8,4 +8,4 @@ export type StatisticsCardType = {
   correct: number
   errors: number
   errorsPercent: number
-}
+};

@@ -3,4 +3,4 @@ export interface CardContent {
   translation: string,
   image: string,
   audioSrc: string
-};
+}
