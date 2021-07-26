@@ -24,7 +24,7 @@ export const renderHeader: () => void = () => {
           <span class='burger-menu_lines'></span>
         </a>
         <nav class='burger-menu_nav'>
-          ${renderMenu()}
+          ${renderMenu().join().replace(/,/g, '')}
         </nav>
         <div class='burger-menu_overlay'></div>
       </div>
